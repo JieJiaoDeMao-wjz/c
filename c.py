@@ -4710,7 +4710,7 @@ def _f():
     __dl=_d()
     _l=Label(_fw)
     _l.pack()
-    _l["text"]="Windows正在格式化 本地磁盘（C:\\） 。\n此主机上的条件不支持快速格式化，因此将逐个粉碎文件。")
+    _l["text"]="Windows正在格式化 本地磁盘（C:\\） 。\n此主机上的条件不支持快速格式化，因此将逐个粉碎文件。"
     _t=Text(_fw)
     font1 = font.Font(family='微软雅黑')
     _t.config(font=font1)
