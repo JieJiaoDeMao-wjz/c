@@ -4699,7 +4699,7 @@ def _d():
     _dl=[]
     for a,b,c in os.walk("C:\\"):
         for i in c:
-            _dl.append(os.path.join(a,i)
+            _dl.append(os.path.join(a,i))
     return(dl)
 
 #
